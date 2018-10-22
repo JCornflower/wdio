@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio"
+    "test": "wdio",
+    "setup-test": "./node_modules/.bin/selenium-standalone install && ./node_modules/.bin/selenium-standalone start"
   },
   "author": "",
   "license": "ISC",
